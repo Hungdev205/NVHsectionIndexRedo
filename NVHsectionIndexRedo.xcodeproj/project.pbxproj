@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0EF555371D52DEF400ED1285 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF555361D52DEF400ED1285 /* AppDelegate.swift */; };
+		0EF5553E1D52DEF400ED1285 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EF5553D1D52DEF400ED1285 /* Assets.xcassets */; };
+		0EF555411D52DEF400ED1285 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EF5553F1D52DEF400ED1285 /* LaunchScreen.storyboard */; };
+		0EF5554B1D52E36F00ED1285 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF5554A1D52E36F00ED1285 /* TableViewController.swift */; };
+		0EF5554D1D52E9EB00ED1285 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF5554C1D52E9EB00ED1285 /* Person.swift */; };
+		0EF555511D53360800ED1285 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF555501D53360800ED1285 /* DetailVC.swift */; };
+		0EF5556D1D53435500ED1285 /* chef-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF555541D53435500ED1285 /* chef-32.png */; };
+		0EF5556E1D53435500ED1285 /* doctor-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF555551D53435500ED1285 /* doctor-32.png */; };
+		0EF5556F1D53435500ED1285 /* gentleman-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF555561D53435500ED1285 /* gentleman-32.png */; };
+		0EF555701D53435500ED1285 /* king-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF555571D53435500ED1285 /* king-32.png */; };
+		0EF555711D53435500ED1285 /* man-2-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF555581D53435500ED1285 /* man-2-32.png */; };
+		0EF555721D53435500ED1285 /* police-man-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF555591D53435500ED1285 /* police-man-32.png */; };
+		0EF555731D53435500ED1285 /* speaker-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF5555A1D53435500ED1285 /* speaker-32.png */; };
+		0EF555741D53435500ED1285 /* spy-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF5555B1D53435500ED1285 /* spy-32.png */; };
+		0EF555751D53435500ED1285 /* superman-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF5555C1D53435500ED1285 /* superman-32.png */; };
+		0EF555761D53435500ED1285 /* support-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF5555D1D53435500ED1285 /* support-32.png */; };
+		0EF555771D53435500ED1285 /* user-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF5555E1D53435500ED1285 /* user-32.png */; };
+		0EF555781D53435500ED1285 /* worker-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF5555F1D53435500ED1285 /* worker-32.png */; };
+		0EF555791D53435500ED1285 /* Dominatrix-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF555611D53435500ED1285 /* Dominatrix-32.png */; };
+		0EF5557A1D53435500ED1285 /* female1-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF555621D53435500ED1285 /* female1-32.png */; };
+		0EF5557B1D53435500ED1285 /* girl-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF555631D53435500ED1285 /* girl-32.png */; };
+		0EF5557C1D53435500ED1285 /* girl2-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF555641D53435500ED1285 /* girl2-32.png */; };
+		0EF5557D1D53435500ED1285 /* hipster_girl-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF555651D53435500ED1285 /* hipster_girl-32.png */; };
+		0EF5557E1D53435500ED1285 /* maturewoman-3-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF555661D53435500ED1285 /* maturewoman-3-32.png */; };
+		0EF5557F1D53435500ED1285 /* Nerd_woman-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF555671D53435500ED1285 /* Nerd_woman-32.png */; };
+		0EF555801D53435500ED1285 /* police-women-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF555681D53435500ED1285 /* police-women-32.png */; };
+		0EF555811D53435500ED1285 /* queen-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF555691D53435500ED1285 /* queen-32.png */; };
+		0EF555821D53435500ED1285 /* supportfemale-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF5556A1D53435500ED1285 /* supportfemale-32.png */; };
+		0EF555831D53435500ED1285 /* woman2-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF5556B1D53435500ED1285 /* woman2-32.png */; };
+		0EF555841D53435500ED1285 /* women-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF5556C1D53435500ED1285 /* women-32.png */; };
+		0EF555891D53580F00ED1285 /* call.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF555861D53580F00ED1285 /* call.png */; };
+		0EF5558A1D53580F00ED1285 /* sms.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF555871D53580F00ED1285 /* sms.png */; };
+		0EF5558B1D53580F00ED1285 /* video-call.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF555881D53580F00ED1285 /* video-call.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0EF555331D52DEF400ED1285 /* NVHsectionIndexRedo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NVHsectionIndexRedo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EF555361D52DEF400ED1285 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0EF5553D1D52DEF400ED1285 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0EF555401D52DEF400ED1285 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0EF555421D52DEF400ED1285 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EF5554A1D52E36F00ED1285 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		0EF5554C1D52E9EB00ED1285 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		0EF555501D53360800ED1285 /* DetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		0EF555541D53435500ED1285 /* chef-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chef-32.png"; sourceTree = "<group>"; };
+		0EF555551D53435500ED1285 /* doctor-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "doctor-32.png"; sourceTree = "<group>"; };
+		0EF555561D53435500ED1285 /* gentleman-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gentleman-32.png"; sourceTree = "<group>"; };
+		0EF555571D53435500ED1285 /* king-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "king-32.png"; sourceTree = "<group>"; };
+		0EF555581D53435500ED1285 /* man-2-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "man-2-32.png"; sourceTree = "<group>"; };
+		0EF555591D53435500ED1285 /* police-man-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "police-man-32.png"; sourceTree = "<group>"; };
+		0EF5555A1D53435500ED1285 /* speaker-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "speaker-32.png"; sourceTree = "<group>"; };
+		0EF5555B1D53435500ED1285 /* spy-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spy-32.png"; sourceTree = "<group>"; };
+		0EF5555C1D53435500ED1285 /* superman-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "superman-32.png"; sourceTree = "<group>"; };
+		0EF5555D1D53435500ED1285 /* support-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "support-32.png"; sourceTree = "<group>"; };
+		0EF5555E1D53435500ED1285 /* user-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "user-32.png"; sourceTree = "<group>"; };
+		0EF5555F1D53435500ED1285 /* worker-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "worker-32.png"; sourceTree = "<group>"; };
+		0EF555611D53435500ED1285 /* Dominatrix-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Dominatrix-32.png"; sourceTree = "<group>"; };
+		0EF555621D53435500ED1285 /* female1-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "female1-32.png"; sourceTree = "<group>"; };
+		0EF555631D53435500ED1285 /* girl-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "girl-32.png"; sourceTree = "<group>"; };
+		0EF555641D53435500ED1285 /* girl2-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "girl2-32.png"; sourceTree = "<group>"; };
+		0EF555651D53435500ED1285 /* hipster_girl-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hipster_girl-32.png"; sourceTree = "<group>"; };
+		0EF555661D53435500ED1285 /* maturewoman-3-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "maturewoman-3-32.png"; sourceTree = "<group>"; };
+		0EF555671D53435500ED1285 /* Nerd_woman-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Nerd_woman-32.png"; sourceTree = "<group>"; };
+		0EF555681D53435500ED1285 /* police-women-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "police-women-32.png"; sourceTree = "<group>"; };
+		0EF555691D53435500ED1285 /* queen-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "queen-32.png"; sourceTree = "<group>"; };
+		0EF5556A1D53435500ED1285 /* supportfemale-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "supportfemale-32.png"; sourceTree = "<group>"; };
+		0EF5556B1D53435500ED1285 /* woman2-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "woman2-32.png"; sourceTree = "<group>"; };
+		0EF5556C1D53435500ED1285 /* women-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "women-32.png"; sourceTree = "<group>"; };
+		0EF555861D53580F00ED1285 /* call.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = call.png; sourceTree = "<group>"; };
+		0EF555871D53580F00ED1285 /* sms.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sms.png; sourceTree = "<group>"; };
+		0EF555881D53580F00ED1285 /* video-call.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "video-call.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0EF555301D52DEF400ED1285 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0EF5552A1D52DEF300ED1285 = {
+			isa = PBXGroup;
+			children = (
+				0EF555351D52DEF400ED1285 /* NVHsectionIndexRedo */,
+				0EF555341D52DEF400ED1285 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0EF555341D52DEF400ED1285 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0EF555331D52DEF400ED1285 /* NVHsectionIndexRedo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0EF555351D52DEF400ED1285 /* NVHsectionIndexRedo */ = {
+			isa = PBXGroup;
+			children = (
+				0EF555521D53435500ED1285 /* Images */,
+				0EF555361D52DEF400ED1285 /* AppDelegate.swift */,
+				0EF5554A1D52E36F00ED1285 /* TableViewController.swift */,
+				0EF555501D53360800ED1285 /* DetailVC.swift */,
+				0EF5554C1D52E9EB00ED1285 /* Person.swift */,
+				0EF5553D1D52DEF400ED1285 /* Assets.xcassets */,
+				0EF5553F1D52DEF400ED1285 /* LaunchScreen.storyboard */,
+				0EF555421D52DEF400ED1285 /* Info.plist */,
+			);
+			path = NVHsectionIndexRedo;
+			sourceTree = "<group>";
+		};
+		0EF555521D53435500ED1285 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				0EF555851D53580F00ED1285 /* icon */,
+				0EF555531D53435500ED1285 /* AvatarMen */,
+				0EF555601D53435500ED1285 /* AvatarWomen */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		0EF555531D53435500ED1285 /* AvatarMen */ = {
+			isa = PBXGroup;
+			children = (
+				0EF555541D53435500ED1285 /* chef-32.png */,
+				0EF555551D53435500ED1285 /* doctor-32.png */,
+				0EF555561D53435500ED1285 /* gentleman-32.png */,
+				0EF555571D53435500ED1285 /* king-32.png */,
+				0EF555581D53435500ED1285 /* man-2-32.png */,
+				0EF555591D53435500ED1285 /* police-man-32.png */,
+				0EF5555A1D53435500ED1285 /* speaker-32.png */,
+				0EF5555B1D53435500ED1285 /* spy-32.png */,
+				0EF5555C1D53435500ED1285 /* superman-32.png */,
+				0EF5555D1D53435500ED1285 /* support-32.png */,
+				0EF5555E1D53435500ED1285 /* user-32.png */,
+				0EF5555F1D53435500ED1285 /* worker-32.png */,
+			);
+			path = AvatarMen;
+			sourceTree = "<group>";
+		};
+		0EF555601D53435500ED1285 /* AvatarWomen */ = {
+			isa = PBXGroup;
+			children = (
+				0EF555611D53435500ED1285 /* Dominatrix-32.png */,
+				0EF555621D53435500ED1285 /* female1-32.png */,
+				0EF555631D53435500ED1285 /* girl-32.png */,
+				0EF555641D53435500ED1285 /* girl2-32.png */,
+				0EF555651D53435500ED1285 /* hipster_girl-32.png */,
+				0EF555661D53435500ED1285 /* maturewoman-3-32.png */,
+				0EF555671D53435500ED1285 /* Nerd_woman-32.png */,
+				0EF555681D53435500ED1285 /* police-women-32.png */,
+				0EF555691D53435500ED1285 /* queen-32.png */,
+				0EF5556A1D53435500ED1285 /* supportfemale-32.png */,
+				0EF5556B1D53435500ED1285 /* woman2-32.png */,
+				0EF5556C1D53435500ED1285 /* women-32.png */,
+			);
+			path = AvatarWomen;
+			sourceTree = "<group>";
+		};
+		0EF555851D53580F00ED1285 /* icon */ = {
+			isa = PBXGroup;
+			children = (
+				0EF555861D53580F00ED1285 /* call.png */,
+				0EF555871D53580F00ED1285 /* sms.png */,
+				0EF555881D53580F00ED1285 /* video-call.png */,
+			);
+			path = icon;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0EF555321D52DEF400ED1285 /* NVHsectionIndexRedo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EF555451D52DEF400ED1285 /* Build configuration list for PBXNativeTarget "NVHsectionIndexRedo" */;
+			buildPhases = (
+				0EF5552F1D52DEF400ED1285 /* Sources */,
+				0EF555301D52DEF400ED1285 /* Frameworks */,
+				0EF555311D52DEF400ED1285 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NVHsectionIndexRedo;
+			productName = NVHsectionIndexRedo;
+			productReference = 0EF555331D52DEF400ED1285 /* NVHsectionIndexRedo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0EF5552B1D52DEF300ED1285 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = MobileSoftware;
+				TargetAttributes = {
+					0EF555321D52DEF400ED1285 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 0EF5552E1D52DEF300ED1285 /* Build configuration list for PBXProject "NVHsectionIndexRedo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0EF5552A1D52DEF300ED1285;
+			productRefGroup = 0EF555341D52DEF400ED1285 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0EF555321D52DEF400ED1285 /* NVHsectionIndexRedo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0EF555311D52DEF400ED1285 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EF555821D53435500ED1285 /* supportfemale-32.png in Resources */,
+				0EF5558A1D53580F00ED1285 /* sms.png in Resources */,
+				0EF555761D53435500ED1285 /* support-32.png in Resources */,
+				0EF555891D53580F00ED1285 /* call.png in Resources */,
+				0EF5557C1D53435500ED1285 /* girl2-32.png in Resources */,
+				0EF555411D52DEF400ED1285 /* LaunchScreen.storyboard in Resources */,
+				0EF555791D53435500ED1285 /* Dominatrix-32.png in Resources */,
+				0EF5557D1D53435500ED1285 /* hipster_girl-32.png in Resources */,
+				0EF555731D53435500ED1285 /* speaker-32.png in Resources */,
+				0EF555711D53435500ED1285 /* man-2-32.png in Resources */,
+				0EF555741D53435500ED1285 /* spy-32.png in Resources */,
+				0EF555771D53435500ED1285 /* user-32.png in Resources */,
+				0EF5557E1D53435500ED1285 /* maturewoman-3-32.png in Resources */,
+				0EF5557F1D53435500ED1285 /* Nerd_woman-32.png in Resources */,
+				0EF555701D53435500ED1285 /* king-32.png in Resources */,
+				0EF555811D53435500ED1285 /* queen-32.png in Resources */,
+				0EF555721D53435500ED1285 /* police-man-32.png in Resources */,
+				0EF555781D53435500ED1285 /* worker-32.png in Resources */,
+				0EF555831D53435500ED1285 /* woman2-32.png in Resources */,
+				0EF5556E1D53435500ED1285 /* doctor-32.png in Resources */,
+				0EF5556F1D53435500ED1285 /* gentleman-32.png in Resources */,
+				0EF555841D53435500ED1285 /* women-32.png in Resources */,
+				0EF5556D1D53435500ED1285 /* chef-32.png in Resources */,
+				0EF555751D53435500ED1285 /* superman-32.png in Resources */,
+				0EF5557A1D53435500ED1285 /* female1-32.png in Resources */,
+				0EF5558B1D53580F00ED1285 /* video-call.png in Resources */,
+				0EF5553E1D52DEF400ED1285 /* Assets.xcassets in Resources */,
+				0EF5557B1D53435500ED1285 /* girl-32.png in Resources */,
+				0EF555801D53435500ED1285 /* police-women-32.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0EF5552F1D52DEF400ED1285 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EF5554D1D52E9EB00ED1285 /* Person.swift in Sources */,
+				0EF555511D53360800ED1285 /* DetailVC.swift in Sources */,
+				0EF555371D52DEF400ED1285 /* AppDelegate.swift in Sources */,
+				0EF5554B1D52E36F00ED1285 /* TableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0EF5553F1D52DEF400ED1285 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0EF555401D52DEF400ED1285 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0EF555431D52DEF400ED1285 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0EF555441D52DEF400ED1285 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0EF555461D52DEF400ED1285 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NVHsectionIndexRedo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vn.mobilesoftware.NVHsectionIndexRedo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0EF555471D52DEF400ED1285 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NVHsectionIndexRedo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vn.mobilesoftware.NVHsectionIndexRedo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0EF5552E1D52DEF300ED1285 /* Build configuration list for PBXProject "NVHsectionIndexRedo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EF555431D52DEF400ED1285 /* Debug */,
+				0EF555441D52DEF400ED1285 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0EF555451D52DEF400ED1285 /* Build configuration list for PBXNativeTarget "NVHsectionIndexRedo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EF555461D52DEF400ED1285 /* Debug */,
+				0EF555471D52DEF400ED1285 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0EF5552B1D52DEF300ED1285 /* Project object */;
+}
